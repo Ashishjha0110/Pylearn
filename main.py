@@ -1,4 +1,17 @@
-l1=[10,20,30]
-l2=[10,20,30]
-l3=[10,20,30,40]
-l1=l3
+#Fundamental Datatypes
+int   
+float 
+bool
+str
+list
+tuple
+set
+dict
+
+#classes
+
+#specialized data types
+
+None
+
+
