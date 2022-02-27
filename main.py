@@ -1,17 +1,8 @@
-#Fundamental Datatypes
-int   
-float 
-bool
-str
-list
-tuple
-set
-dict
+#Fundamental Data types
+print (type (2+4))
+print (type (2/4)) # Output will not be rounded 
 
-#classes
-
-#specialized data types
-
-None
-
-
+## Output will be rounded down to the integer.
+print (5 // 4)
+print (5 % 4) # modulus operator returns the remainder.
+print (3**2)
