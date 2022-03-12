@@ -1,24 +1,19 @@
-#List methods
+#List methods Part 1.2
 New_list = [1,2,3,4,5]
 
-#1. Adding a new object to the exciting list
-# Append Method: this method changes the list in place 
-# i.e. it means it does not give out a new list, it just adds the value to the existing list. 
-#Example1
-New_list.append (6)
-new= New_list
-print (New_list)
-print (new)
+# removing the value from a list
+#POP method is used to remove the object from the end or from the given index of the list. By default, it has the index of the last object. pop()/pop(index)
+# if we use the pop and use it to assign or create the new list then it will only pop that index value and paste it to new list.
+New_list.pop()
+new=New_list.pop(2)
+print(New_list)
+print(new)
 
-#INSERT Method: It is used to insert the object at a particular index/location in the existing list. 
-#Example 2
-#Syntax: .insert(index,value)
-New_list.insert(3,7)
-I_new=New_list
-print (I_new)
+#REMOVE method is used to remove a given value. remove(value)
 
-#EXTEND Menthod: This method is use to extend the existing list and it does not create a new copy with modified value. 
-#Note: this method takes "Iterable" instead of normal object
-New_list.extend([8])
-Ex_new=New_list
-print (Ex_new)
+# New_list.remove(4)
+# print(New_list)
+
+#CLEAR method simply clears the entire list 
+New_list.clear()
+print(New_list)
