@@ -1,21 +1,16 @@
-#Dictionary
-#Dictoionary keys has to be immutsble that is why we cannot use list as the keys for a dictionary.
-dictionary= {
-'a': [1,2,3],
-'b': 'hello',
-'c': 4  
-}
+#tuple
+# the tuples are list but the major difference is that it is immutable. As it is immutable it is faster than list but we can not perform sort or reverse on the tuple.
 
-#print('a'in dictionary.keys())
-#print('hello' in dictionary.values())
-print (dictionary.items())
-##In the similar manner there is copy that copies the dictionary. SYntax: dict2= dict1.copy() 
-##There is a clear method to clear the dictionary. 
-# Syntax: dict1.clear()
-## Pop and popitem the intial one pops the specific key and value whereas the latter which earlier used to remove any value randomly was updated in the python 3.7 to pop the last added value to the dictionary.__doc__
+#As the tuples are immutable so it can be used as the key in the dictionary.
 
-#Update this method updated the value of existing key or if the key is not present then it updates the dictionary with the new key and value.__doc__
+My_tup= (1,2,3,4,4)
 
-# Syntax: dictionary.update({'c':6})
+#Methods
+# the tuple has only 2 methods count and index
+# count & index 
+# its working is same that we performed in the list section
+print(My_tup.count(4))
+print(My_tup.index(3))
+print(len(My_tup))
 
 
