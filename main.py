@@ -6,20 +6,16 @@ dictionary= {
 'c': 4  
 }
 
-print (dictionary['a'][1])
+#print('a'in dictionary.keys())
+#print('hello' in dictionary.values())
+print (dictionary.items())
+##In the similar manner there is copy that copies the dictionary. SYntax: dict2= dict1.copy() 
+##There is a clear method to clear the dictionary. 
+# Syntax: dict1.clear()
+## Pop and popitem the intial one pops the specific key and value whereas the latter which earlier used to remove any value randomly was updated in the python 3.7 to pop the last added value to the dictionary.__doc__
 
-#Dictionary Methods
-#1. get method
-#Syntax: .get
+#Update this method updated the value of existing key or if the key is not present then it updates the dictionary with the new key and value.__doc__
 
-user={
-'weapons':[1,2,3,4],
-'greet' : 'hi',
-'age' : 23  
-  
-}
-print(user.get('age',26))# this line simply mean that if the age key does not have a value assigned to it then assign a the default value 26 to it but if it has then print the value which is there in the dictionary.
+# Syntax: dictionary.update({'c':6})
 
-#dict method is use to create a dictionary
-user2 = dict(name='Ashish')
-print(user2)
+
